@@ -23,10 +23,6 @@ int main() {
     }
     cout << "\n\n";
 
-
-
-
-
     // Example using erase to remove elements from a vector
     // Removing the element at index 3
     myVector.erase(myVector.begin() + 3);
@@ -36,7 +32,6 @@ int main() {
         cout << element << " ";
     }
     cout << "\n\n";
-
 
 
     // Example using swap to exchange contents of two vectors
@@ -67,8 +62,6 @@ int main() {
     cout << "\n";
 
 
-
-
     vector<int> vector1 = {1, 2, 3, 4, 5};
     vector<int> vector2 = {10, 20, 30, 40, 50};
 
@@ -88,6 +81,14 @@ int main() {
         cout << element << " ";
     }
     cout << "\n";
-    
+
+    //example using toupper     
+    string s("some string");
+    if (s.begin() != s.end()) { // make sure s is not empty
+    auto it = s.begin(); // it denotes the first character in s
+    *it = toupper(*it); // make that character uppercase
+    cout<<s<<endl;
+    }
+
     return 0;
 }

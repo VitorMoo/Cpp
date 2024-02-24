@@ -2,6 +2,10 @@
 #include <vector>
 
 using namespace std;
+/*an iterator is an object that allows iteration over the elements of a 
+sequential data structure, such as a vector, list, or set. It provides a way to sequentially 
+access the elements stored in a container without exposing 
+the underlying implementation details of that container.*/
 
 int main() {
     // Example using range-based for loop for a vector
